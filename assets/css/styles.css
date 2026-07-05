@@ -46,6 +46,7 @@ img { max-width: 100%; height: auto; }
 .nav-wrap { display: flex; align-items: center; gap: .75rem; min-height: 76px; }
 .brand { display: inline-flex; align-items:center; gap:.75rem; text-decoration:none; margin-right:auto; }
 .brand__mark { width:48px; height:48px; display:grid; place-items:center; border-radius:16px; background:linear-gradient(135deg, var(--brand), var(--brand-2)); color:#fff; font-weight:900; letter-spacing:-.05em; }
+.brand__mark--image { display:block; background:none; object-fit:contain; box-shadow:0 10px 24px color-mix(in srgb, var(--brand) 22%, transparent); }
 .brand small { display:block; color:var(--muted); font-size:.78rem; }
 .site-nav ul { display:flex; list-style:none; margin:0; padding:0; gap:.25rem; align-items:center; flex-wrap:wrap; }
 .site-nav a { text-decoration:none; padding:.7rem .85rem; border-radius:999px; color:var(--muted); font-weight:700; }
@@ -137,6 +138,7 @@ h3 { font-size:1.35rem; margin:.35rem 0 .65rem; }
   .container { width:min(100% - 24px, 1120px); }
   .brand small { display:none; }
   .brand__mark { width:42px; height:42px; border-radius:14px; }
+  .brand__mark--image { width:42px; height:42px; }
   .topbar__inner span { display:none; }
   .sticky-cta .btn { flex:1; font-size:.88rem; padding:.65rem .7rem; }
   .hero { padding-top:3rem; }
