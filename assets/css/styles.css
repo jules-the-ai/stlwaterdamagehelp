@@ -162,7 +162,7 @@ h3 { font-size:1.35rem; margin:.35rem 0 .65rem; }
   .brand__mark { width:42px; height:42px; border-radius:14px; }
   .brand__mark--image { width:42px; height:42px; }
   .topbar__inner span { display:none; }
-  .sticky-cta .btn { flex:1; font-size:.88rem; padding:.65rem .7rem; }
+  .sticky-cta .btn { flex:1; font-size:.75rem; padding:.65rem .7rem; }
   .hero { padding-top:3rem; }
   .hero-actions .btn { width:100%; }
   .stat-grid { grid-template-columns:1fr; }
