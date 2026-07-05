@@ -1,0 +1,38 @@
+{% assign c = site.data.contact %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": {{ c.company_name | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "telephone": {{ c.phone_tel | jsonify }},
+  "email": {{ c.email | jsonify }},
+  "areaServed": ["St. Louis, MO", "St. Louis County, MO", "Greater St. Louis"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": {{ c.address_locality | jsonify }},
+    "addressRegion": {{ c.address_region | jsonify }},
+    "postalCode": {{ c.postal_code | jsonify }},
+    "addressCountry": "US"
+  },
+  "openingHours": "Mo-Su 00:00-23:59",
+  "priceRange": "$$",
+  "description": {{ site.description | jsonify }},
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Water damage restoration services",
+    "itemListElement": [
+      {% for s in site.data.services %}{
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": {{ s.title | jsonify }},
+          "description": {{ s.summary | jsonify }},
+          "areaServed": "Greater St. Louis"
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+}
+</script>
