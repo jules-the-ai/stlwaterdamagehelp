@@ -1,4 +1,5 @@
 ---
+service_slug: burst-pipe-dry-out
 title: Burst Pipe & Plumbing Leak Dry-Out in St. Louis
 h1: Burst Pipe & Plumbing Leak Dry-Out in St. Louis
 kicker: Water damage service

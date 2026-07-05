@@ -18,7 +18,8 @@ seo_description: Find fast help for St. Louis water damage, flooded basements, b
       </div>
       <ul class="trust-row"><li>Flood cleanup</li><li>Sewage backups</li><li>Burst pipes</li><li>Mold prevention</li><li>Storm leaks</li></ul>
     </div>
-    <div class="cta-card emergency-card">
+    <div class="cta-card emergency-card hero-photo-card">
+      <img class="hero-photo" src="{{ site.data.images.home_hero.path | relative_url }}" alt="{{ site.data.images.home_hero.alt }}" loading="eager">
       <p class="eyebrow">Emergency checklist</p>
       <h2>What to do in the first 15 minutes</h2>
       <ol class="check-list">

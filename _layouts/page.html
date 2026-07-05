@@ -15,7 +15,15 @@ layout: default
 </section>
 <section class="content-section">
   <div class="container two-col">
-    <article class="prose">{{ content }}</article>
+    <article class="prose">
+      {% if page.service_slug and site.data.images.services[page.service_slug] %}
+        {% assign service_image = site.data.images.services[page.service_slug] %}
+        <figure class="service-page-image">
+          <img src="{{ service_image.path | relative_url }}" alt="{{ service_image.alt }}" loading="eager">
+        </figure>
+      {% endif %}
+      {{ content }}
+    </article>
     {% include sidebar.html %}
   </div>
 </section>

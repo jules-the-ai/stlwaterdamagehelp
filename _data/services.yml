@@ -1,24 +1,43 @@
 - title: Emergency Water Extraction
   slug: water-extraction
   icon: 💧
-  summary: Standing water removal, wet material assessment, moisture mapping, and drying plans for flooded basements, broken supply lines, appliance leaks, and storm intrusion.
+  summary: Standing water removal, wet material assessment, moisture mapping, and
+    drying plans for flooded basements, broken supply lines, appliance leaks, and
+    storm intrusion.
+  image_path: /assets/img/water-extraction-pumping-basement.jpg
+  image_alt: A restoration pump removing water from a flooded basement
 - title: Flooded Basement Cleanup
   slug: flooded-basement-cleanup
   icon: 🏠
-  summary: Basement water removal, contents guidance, wall and flooring recommendations, humidity control, and documentation for homeowners and property managers.
+  summary: Basement water removal, contents guidance, wall and flooring recommendations,
+    humidity control, and documentation for homeowners and property managers.
+  image_path: /assets/img/flooded-basement-standing-water.jpg
+  image_alt: Basement flooded with more than two feet of water after flash flooding
 - title: Sewage Backup Cleanup
   slug: sewage-backup-cleanup
   icon: ⚠️
-  summary: Safety-first cleanup for toilet overflows, sewer line backups, category 3 water events, contaminated porous materials, and odor control.
+  summary: Safety-first cleanup for toilet overflows, sewer line backups, category
+    3 water events, contaminated porous materials, and odor control.
+  image_path: /assets/img/sewage-flood-cleanup-volunteers.jpg
+  image_alt: Cleanup volunteers sanitizing a home after flood and sewage contamination
 - title: Burst Pipe & Plumbing Leak Dry-Out
   slug: burst-pipe-dry-out
   icon: 🔧
-  summary: Fast response after frozen pipes, supply line failures, water heater leaks, sink overflows, and hidden wall or ceiling moisture.
+  summary: Fast response after frozen pipes, supply line failures, water heater leaks,
+    sink overflows, and hidden wall or ceiling moisture.
+  image_path: /assets/img/water-damage-basement-fan.jpg
+  image_alt: Water damaged basement fan after a flooding event
 - title: Mold Prevention & Remediation Guidance
   slug: mold-prevention-remediation
   icon: 🧫
-  summary: Moisture source control, mold risk reduction, containment expectations, and referral-ready guidance when professional remediation is needed.
+  summary: Moisture source control, mold risk reduction, containment expectations,
+    and referral-ready guidance when professional remediation is needed.
+  image_path: /assets/img/mold-remediation-awareness.jpg
+  image_alt: Mold remediation awareness materials after flood damage
 - title: Storm & Roof Leak Water Damage
   slug: storm-roof-leak-damage
   icon: ⛈️
-  summary: Help after wind-driven rain, roof leaks, sump pump failures, and flash-flooding events common around the St. Louis metro.
+  summary: Help after wind-driven rain, roof leaks, sump pump failures, and flash-flooding
+    events common around the St. Louis metro.
+  image_path: /assets/img/storm-damage-house.jpg
+  image_alt: Storm damage to a residential property after severe weather

@@ -106,6 +106,20 @@ h3 { font-size:1.35rem; margin:.35rem 0 .65rem; }
 .footer-grid { display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:2rem; }
 .footer-grid ul { list-style:none; padding:0; margin:.5rem 0 0; }
 .disclaimer { margin-top:2rem; color:#9fb7be; font-size:.9rem; border-top:1px solid #23424a; padding-top:1rem; }
+
+.hero-photo-card { padding: 0; overflow: hidden; }
+.hero-photo { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-bottom: 1px solid var(--border); }
+.hero-photo-card > :not(img) { margin-left: 1.4rem; margin-right: 1.4rem; }
+.hero-photo-card .stat-grid { margin-bottom: 1.4rem; }
+.service-card { overflow: hidden; padding: 0; display: flex; flex-direction: column; }
+.service-card__media { display: block; overflow: hidden; }
+.service-card__media img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; transition: transform .25s ease; }
+.service-card:hover .service-card__media img { transform: scale(1.035); }
+.service-card__body { padding: 1.25rem; display: grid; gap: .2rem; flex: 1; }
+.service-page-image { margin: 0 0 1.5rem; border-radius: 28px; overflow: hidden; border: 1px solid var(--border); box-shadow: var(--shadow); background: var(--surface); }
+.service-page-image img { display: block; width: 100%; max-height: 430px; object-fit: cover; }
+.prose figure + h2 { margin-top: 1.6rem; }
+
 @media (max-width: 880px) {
   .menu-toggle { display:inline-flex; }
   .site-nav { position:absolute; inset:76px 16px auto 16px; background:var(--surface); border:1px solid var(--border); border-radius:24px; padding:1rem; box-shadow:var(--shadow); display:none; }

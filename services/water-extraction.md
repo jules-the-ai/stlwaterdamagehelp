@@ -1,4 +1,5 @@
 ---
+service_slug: water-extraction
 title: Emergency Water Extraction in St. Louis
 h1: Emergency Water Extraction in St. Louis
 kicker: Water damage service

@@ -1,4 +1,5 @@
 ---
+service_slug: flooded-basement-cleanup
 title: Flooded Basement Cleanup in St. Louis
 h1: Flooded Basement Cleanup in St. Louis
 kicker: Water damage service

@@ -1,4 +1,5 @@
 ---
+service_slug: mold-prevention-remediation
 title: Mold Prevention After Water Damage in St. Louis
 h1: Mold Prevention After Water Damage in St. Louis
 kicker: Water damage service

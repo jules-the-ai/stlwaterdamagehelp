@@ -1,0 +1,22 @@
+home_hero:
+  path: /assets/img/hero-flooded-basement.jpg
+  alt: 'Flooded basement with standing water after heavy rainfall'
+services:
+  water-extraction:
+    path: /assets/img/water-extraction-pumping-basement.jpg
+    alt: 'A restoration pump removing water from a flooded basement'
+  flooded-basement-cleanup:
+    path: /assets/img/flooded-basement-standing-water.jpg
+    alt: 'Basement flooded with more than two feet of water after flash flooding'
+  sewage-backup-cleanup:
+    path: /assets/img/sewage-flood-cleanup-volunteers.jpg
+    alt: 'Cleanup volunteers sanitizing a home after flood and sewage contamination'
+  burst-pipe-dry-out:
+    path: /assets/img/water-damage-basement-fan.jpg
+    alt: 'Water damaged basement fan after a flooding event'
+  mold-prevention-remediation:
+    path: /assets/img/mold-remediation-awareness.jpg
+    alt: 'Mold remediation awareness materials after flood damage'
+  storm-roof-leak-damage:
+    path: /assets/img/storm-damage-house.jpg
+    alt: 'Storm damage to a residential property after severe weather'
