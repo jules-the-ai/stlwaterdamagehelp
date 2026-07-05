@@ -138,6 +138,10 @@ h3 { font-size:1.35rem; margin:.35rem 0 .65rem; }
   display: inline-block;
 }
 
+.cta-card .btn + .btn {
+  margin-top: 0.5em;
+}
+
 @media (max-width: 880px) {
   .menu-toggle { display:inline-flex; }
   .site-nav { position:absolute; inset:76px 16px auto 16px; background:var(--surface); border:1px solid var(--border); border-radius:24px; padding:1rem; box-shadow:var(--shadow); display:none; }
