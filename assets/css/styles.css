@@ -121,6 +121,23 @@ h3 { font-size:1.35rem; margin:.35rem 0 .65rem; }
 .service-page-image img { display: block; width: 100%; max-height: 430px; object-fit: cover; }
 .prose figure + h2 { margin-top: 1.6rem; }
 
+
+/* Keep stacked call/text/email actions from crowding each other. */
+.cta-card .btn + .btn,
+.cta-card .btn + .text-link,
+.cta-card .text-link + .btn,
+.footer-cta .btn + .btn,
+.footer-cta .btn + .text-link,
+.sidebar .btn + .btn,
+.sidebar .btn + .text-link {
+  margin-top: .7rem;
+}
+.cta-card .text-link,
+.footer-cta .text-link,
+.sidebar .text-link {
+  display: inline-block;
+}
+
 @media (max-width: 880px) {
   .menu-toggle { display:inline-flex; }
   .site-nav { position:absolute; inset:76px 16px auto 16px; background:var(--surface); border:1px solid var(--border); border-radius:24px; padding:1rem; box-shadow:var(--shadow); display:none; }
@@ -134,6 +151,11 @@ h3 { font-size:1.35rem; margin:.35rem 0 .65rem; }
   .sticky-cta { top:76px; }
 }
 @media (max-width: 540px) {
+
+  .topbar__inner { gap: .5rem .85rem; padding: .6rem 0; }
+  .topbar__inner a { line-height: 1.2; }
+  .sticky-cta { gap: .65rem; padding: .65rem .75rem; }
+  .sticky-cta .btn + .btn { margin-left: 0; }
   .service-card__media { height: 210px; }
   .container { width:min(100% - 24px, 1120px); }
   .brand small { display:none; }
