@@ -43,7 +43,7 @@ seo_description: Find fast help for St. Louis water damage, flooded basements, b
   <div class="container">
     <div class="section-head"><div><p class="eyebrow">How it works</p><h2>Simple steps when water damage hits</h2></div></div>
     <div class="steps">
-      <div class="card step"><h3>Call or text</h3><p>Use the prominent phone, text, or email options. Contact values live in one data file for easy replacement.</p></div>
+      <div class="card step"><h3>Call or text</h3><p>Reach out 24/7 if water is still coming in, sewage is involved, or floors and walls are already soaked. A quick photo can help prioritize the next steps.</p></div>
       <div class="card step"><h3>Describe the source</h3><p>Share whether the water is from a pipe, rain, appliance, sump pump, sewer, or unknown hidden leak.</p></div>
       <div class="card step"><h3>Document and dry safely</h3><p>Get guidance on safety, photos, insurance documentation, extraction, and drying expectations.</p></div>
     </div>
