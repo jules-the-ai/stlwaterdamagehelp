@@ -64,7 +64,7 @@ img { max-width: 100%; height: auto; }
 .hero-grid { display:grid; grid-template-columns: 1.15fr .85fr; gap:2rem; align-items:center; }
 .eyebrow { margin:0 0 .7rem; color:var(--brand); font-weight:900; letter-spacing:.1em; text-transform:uppercase; font-size:.78rem; }
 h1, h2, h3 { line-height:1.08; letter-spacing:-.035em; }
-h1 { font-size: clamp(2.55rem, 7vw, 5rem); margin:.25rem 0 1rem; }
+h1 { font-size: clamp(2.55rem, 6.5vw, 4.7rem); margin:.25rem 0 1rem; }
 h2 { font-size: clamp(1.8rem, 4vw, 3rem); margin:0 0 1rem; }
 h3 { font-size:1.35rem; margin:.35rem 0 .65rem; }
 .lead { font-size: clamp(1.1rem, 2vw, 1.32rem); color:var(--muted); max-width: 68ch; }
