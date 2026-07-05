@@ -80,7 +80,7 @@ h3 { font-size:1.35rem; margin:.35rem 0 .65rem; }
 .section--alt { background: color-mix(in srgb, var(--surface-2) 50%, transparent); }
 .section-head { display:flex; align-items:end; justify-content:space-between; gap:1.5rem; margin-bottom:1.5rem; }
 .cards { display:grid; gap:1rem; }
-.services-grid { grid-template-columns: repeat(3, 1fr); }
+.services-grid { grid-template-columns: repeat(3, 1fr); align-items: stretch; }
 .card { box-shadow:none; }
 .card a { text-decoration:none; }
 .icon { font-size:2rem; }
@@ -112,10 +112,10 @@ h3 { font-size:1.35rem; margin:.35rem 0 .65rem; }
 .hero-photo-card > :not(img) { margin-left: 1.4rem; margin-right: 1.4rem; }
 .hero-photo-card .stat-grid { margin-bottom: 1.4rem; }
 .service-card { overflow: hidden; padding: 0; display: flex; flex-direction: column; }
-.service-card__media { display: block; overflow: hidden; }
-.service-card__media img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; transition: transform .25s ease; }
+.service-card__media { display: block; overflow: hidden; height: clamp(180px, 18vw, 230px); background: var(--surface-2); }
+.service-card__media img { display: block; width: 100%; height: 100%; aspect-ratio: 16 / 10; object-fit: cover; transition: transform .25s ease; }
 .service-card:hover .service-card__media img { transform: scale(1.035); }
-.service-card__body { padding: 1.25rem; display: grid; gap: .2rem; flex: 1; }
+.service-card__body { padding: 1.25rem; display: grid; gap: .2rem; flex: 1; align-content: start; }
 .service-page-image { margin: 0 0 1.5rem; border-radius: 28px; overflow: hidden; border: 1px solid var(--border); box-shadow: var(--shadow); background: var(--surface); }
 .service-page-image img { display: block; width: 100%; max-height: 430px; object-fit: cover; }
 .prose figure + h2 { margin-top: 1.6rem; }
@@ -133,6 +133,7 @@ h3 { font-size:1.35rem; margin:.35rem 0 .65rem; }
   .sticky-cta { top:76px; }
 }
 @media (max-width: 540px) {
+  .service-card__media { height: 210px; }
   .container { width:min(100% - 24px, 1120px); }
   .brand small { display:none; }
   .brand__mark { width:42px; height:42px; border-radius:14px; }

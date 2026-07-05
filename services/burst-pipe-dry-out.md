@@ -22,3 +22,7 @@ Call or text when you see standing water, wet drywall, soaked carpet pad, saggin
 ## Local St. Louis considerations
 
 Many St. Louis properties have basements, older plumbing, clay sewer laterals, heavy spring storms, and winter freeze risks. A local restoration response should account for building age, basement construction, humidity, and insurance documentation needs.
+## Explore related water damage services
+
+{% include service-cards.html %}
+
