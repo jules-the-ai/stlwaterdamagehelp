@@ -1,0 +1,16 @@
+{% assign c = site.data.contact %}
+<aside class="sidebar">
+  <div class="cta-card">
+    <p class="eyebrow">24/7 Response</p>
+    <h2>Get help for water damage now.</h2>
+    <a class="btn btn--primary btn--wide" href="tel:{{ c.phone_tel }}">Call {{ c.phone_display }}</a>
+    <a class="btn btn--secondary btn--wide" href="sms:{{ c.phone_tel }}">Text {{ c.text_display }}</a>
+    <a class="text-link" href="mailto:{{ c.email }}">{{ c.email }}</a>
+  </div>
+  <div class="panel">
+    <h3>Common calls</h3>
+    <ul class="check-list">
+      <li>Flooded basement</li><li>Burst or frozen pipe</li><li>Sewage backup</li><li>Sump pump failure</li><li>Roof or storm leak</li><li>Mold concern after water damage</li>
+    </ul>
+  </div>
+</aside>

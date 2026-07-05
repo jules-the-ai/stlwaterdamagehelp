@@ -1,0 +1,24 @@
+- title: Emergency Water Extraction
+  slug: water-extraction
+  icon: 💧
+  summary: Standing water removal, wet material assessment, moisture mapping, and drying plans for flooded basements, broken supply lines, appliance leaks, and storm intrusion.
+- title: Flooded Basement Cleanup
+  slug: flooded-basement-cleanup
+  icon: 🏠
+  summary: Basement water removal, contents guidance, wall and flooring recommendations, humidity control, and documentation for homeowners and property managers.
+- title: Sewage Backup Cleanup
+  slug: sewage-backup-cleanup
+  icon: ⚠️
+  summary: Safety-first cleanup for toilet overflows, sewer line backups, category 3 water events, contaminated porous materials, and odor control.
+- title: Burst Pipe & Plumbing Leak Dry-Out
+  slug: burst-pipe-dry-out
+  icon: 🔧
+  summary: Fast response after frozen pipes, supply line failures, water heater leaks, sink overflows, and hidden wall or ceiling moisture.
+- title: Mold Prevention & Remediation Guidance
+  slug: mold-prevention-remediation
+  icon: 🧫
+  summary: Moisture source control, mold risk reduction, containment expectations, and referral-ready guidance when professional remediation is needed.
+- title: Storm & Roof Leak Water Damage
+  slug: storm-roof-leak-damage
+  icon: ⛈️
+  summary: Help after wind-driven rain, roof leaks, sump pump failures, and flash-flooding events common around the St. Louis metro.

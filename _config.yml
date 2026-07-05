@@ -1,0 +1,34 @@
+title: St. Louis Water Damage Restoration Help
+tagline: 24/7 local help for floods, leaks, sewage backups, and storm damage.
+description: Fast guidance for St. Louis homeowners and businesses dealing with water damage, flooded basements, sewage backups, burst pipes, mold concerns, and storm cleanup.
+url: "https://stlwaterdamagehelp.com"
+baseurl: ""
+lang: en-US
+timezone: America/Chicago
+permalink: pretty
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+collections:
+  services:
+    output: true
+    permalink: /services/:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      image: /assets/img/og-default.png
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      permalink: /blog/:title/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

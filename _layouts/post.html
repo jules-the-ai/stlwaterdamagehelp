@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% assign c = site.data.contact %}
+<article class="post">
+  <header class="page-hero">
+    <div class="container narrow">
+      <p class="eyebrow">Water Damage Blog · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+      <div class="hero-actions"><a class="btn btn--primary" href="tel:{{ c.phone_tel }}">Call {{ c.phone_display }}</a><a class="btn btn--secondary" href="sms:{{ c.phone_tel }}">Text Help Now</a></div>
+    </div>
+  </header>
+  <section class="content-section"><div class="container two-col"><div class="prose">{{ content }}</div>{% include sidebar.html %}</div></section>
+</article>

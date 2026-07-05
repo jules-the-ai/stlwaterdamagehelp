@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% assign c = site.data.contact %}
+<section class="page-hero">
+  <div class="container narrow">
+    {% if page.kicker %}<p class="eyebrow">{{ page.kicker }}</p>{% endif %}
+    <h1>{{ page.h1 | default: page.title }}</h1>
+    {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+    <div class="hero-actions">
+      <a class="btn btn--primary" href="tel:{{ c.phone_tel }}">Call {{ c.phone_display }}</a>
+      <a class="btn btn--secondary" href="sms:{{ c.phone_tel }}">Text {{ c.text_display }}</a>
+    </div>
+  </div>
+</section>
+<section class="content-section">
+  <div class="container two-col">
+    <article class="prose">{{ content }}</article>
+    {% include sidebar.html %}
+  </div>
+</section>
