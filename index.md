@@ -10,7 +10,7 @@ seo_description: Find fast help for St. Louis water damage, flooded basements, b
     <div>
       <p class="eyebrow">24/7 St. Louis Water Damage Help</p>
       <h1>Flooded basement, burst pipe, or sewage backup? Start here.</h1>
-      <p class="lead">Clear, local guidance for St. Louis homeowners and businesses who need fast water extraction, dry-out, cleanup, and restoration referrals.</p>
+      <p class="lead">Fast local water extraction, dry-out, cleanup, and repair support for St. Louis homeowners and businesses.</p>
       <div class="hero-actions">
         <a class="btn btn--primary" href="tel:{{ c.phone_tel }}">Call {{ c.phone_display }}</a>
         <a class="btn btn--secondary" href="sms:{{ c.phone_tel }}">Text {{ c.text_display }}</a>
@@ -35,7 +35,7 @@ seo_description: Find fast help for St. Louis water damage, flooded basements, b
 </section>
 <section class="section section--alt">
   <div class="container">
-    <div class="section-head"><div><p class="eyebrow">Restoration services</p><h2>Common water damage calls in St. Louis</h2></div><p class="lead">The site is structured around high-intent service pages that a restoration company can sponsor or acquire.</p></div>
+    <div class="section-head"><div><p class="eyebrow">Restoration services</p><h2>Common water damage calls in St. Louis</h2></div><p class="lead">Our team responds to the most common water damage emergencies across the St. Louis area, from flooded basements to sewage backups and storm leaks.</p></div>
     {% include service-cards.html %}
   </div>
 </section>
@@ -47,16 +47,5 @@ seo_description: Find fast help for St. Louis water damage, flooded basements, b
       <div class="card step"><h3>Describe the source</h3><p>Share whether the water is from a pipe, rain, appliance, sump pump, sewer, or unknown hidden leak.</p></div>
       <div class="card step"><h3>Document and dry safely</h3><p>Get guidance on safety, photos, insurance documentation, extraction, and drying expectations.</p></div>
     </div>
-  </div>
-</section>
-<section class="section section--alt">
-  <div class="container two-col">
-    <div>
-      <p class="eyebrow">Local intent</p>
-      <h2>Built for Greater St. Louis search demand</h2>
-      <p class="lead">Content covers city and county needs: old basements, sump pump failures, flash flooding, winter pipe bursts, roof leaks after storms, sewer backups, and mold prevention after moisture events.</p>
-      <a class="text-link" href="{{ '/service-areas/' | relative_url }}">View service areas</a>
-    </div>
-    <div class="panel"><h3>Ready for a client handoff</h3><p>Phone, SMS, email, company name, hours, locality, and schema details can be swapped in <code>_data/contact.yml</code> without editing every page.</p></div>
   </div>
 </section>

@@ -2,7 +2,7 @@
 title: Contact St. Louis Water Damage Restoration Help
 h1: Call or Text for St. Louis Water Damage Help
 kicker: Contact
-description: Contact options for water damage restoration help in St. Louis. Phone, text, and email placeholders are easy to replace for a future restoration partner.
+description: Contact St. Louis Water Damage Restoration Help for emergency water extraction, flooded basement cleanup, sewage backup cleanup, storm leaks, and dry-out service.
 ---
 {% assign c = site.data.contact %}
 <div class="cta-card">
@@ -13,6 +13,6 @@ description: Contact options for water damage restoration help in St. Louis. Pho
   <p><strong>Hours:</strong> {{ c.hours }}</p>
 </div>
 
-## Send useful details
+## Send useful details for a faster response
 
 If it is safe, include the water source, affected rooms, approximate depth, whether sewage may be involved, when the damage started, and photos for documentation.

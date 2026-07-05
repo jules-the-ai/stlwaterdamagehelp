@@ -4,14 +4,14 @@ h1: Water Damage Help Across Greater St. Louis
 kicker: Service areas
 description: Local water damage restoration help for St. Louis City, St. Louis County, and nearby Missouri and Illinois communities.
 ---
-This site is built to serve high-intent water damage searches throughout the Greater St. Louis area. Contact information can be routed to the appropriate restoration partner when a sponsor comes on board.
+We provide water damage restoration help throughout the Greater St. Louis area, with emergency response for flooded basements, burst pipes, sewage backups, sump pump failures, roof leaks, and stormwater intrusion.
 
 ## Primary areas
 
 - St. Louis City
 - St. Louis County
 - Clayton, University City, Richmond Heights, Maplewood, Brentwood, Webster Groves, Kirkwood, Chesterfield, Florissant, Ferguson, Maryland Heights, Ballwin, Creve Coeur, and surrounding suburbs
-- Nearby Metro East communities when a future partner supports Illinois leads
+- Nearby Metro East communities for supported Illinois service calls
 
 ## Common local problems
 

@@ -1,8 +1,8 @@
 # stlwaterdamagehelp
 
-Jekyll lead-generation site for St. Louis water damage restoration searches.
+Jekyll site for St. Louis Water Damage Restoration Help.
 
-## Swap contact details
+## Update contact details
 
 Edit `_data/contact.yml` to update company name, phone display, tel link, SMS link, email, hours, locality, and service radius. Header, sticky CTA, sidebars, footer, and schema-oriented content pull from this file.
 

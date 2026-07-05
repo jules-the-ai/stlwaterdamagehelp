@@ -2,7 +2,7 @@
 title: Water Damage Restoration Services in St. Louis
 h1: Water Damage Restoration Services in St. Louis
 kicker: Services
-description: Service pages for flooded basements, emergency extraction, burst pipes, sewage backups, mold prevention, storm leaks, and restoration referral needs.
+description: Water damage restoration services for flooded basements, emergency extraction, burst pipes, sewage backups, mold prevention, storm leaks, and dry-out needs in St. Louis.
 ---
 Water damage restoration is usually more than “mop it up.” A professional response may include inspection, water extraction, moisture mapping, antimicrobial treatment where appropriate, controlled demolition of unsalvageable materials, structural drying, odor control, and repair coordination.
 

@@ -13,7 +13,7 @@ When water damage happens, quick decisions matter. Moisture control and mold rem
 - Drying wet materials quickly
 - Knowing when containment matters
 - Recognizing materials that may need removal
-- Referral-ready notes for professional remediation
+- Clear notes for professional remediation planning
 
 ## When to call
 
