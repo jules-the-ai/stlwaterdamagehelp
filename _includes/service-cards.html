@@ -1,7 +1,7 @@
 <div class="cards services-grid">
 {% for s in site.data.services %}
   <article class="card service-card">
-    {% if s.image_path %}<a class="service-card__media" href="{{ '/services/' | append: s.slug | append: '/' | relative_url }}"><img src="{{ s.image_path | relative_url }}" alt="{{ s.image_alt }}" loading="lazy"></a>{% endif %}
+    {% if s.image_path %}<a class="service-card__media" href="{{ '/services/' | append: s.slug | append: '/' | relative_url }}"><img src="{{ s.image_path | relative_url }}" alt="{{ s.image_alt }}" loading="eager"></a>{% endif %}
     <div class="service-card__body">
       <div class="icon" aria-hidden="true">{{ s.icon }}</div>
       <h3><a href="{{ '/services/' | append: s.slug | append: '/' | relative_url }}">{{ s.title }}</a></h3>
