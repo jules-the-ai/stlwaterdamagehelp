@@ -1,6 +1,7 @@
 title: St. Louis Water Damage Restoration Help
-tagline: 24/7 local help for floods, leaks, sewage backups, and storm damage.
-description: Fast guidance for St. Louis homeowners and businesses dealing with water damage, flooded basements, sewage backups, burst pipes, mold concerns, and storm cleanup.
+tagline: 24/7 water damage restoration in St. Louis
+# Sitewide fallback description. Individual pages use their own descriptions where available.
+description: 24/7 St. Louis water damage restoration for flooded basements, burst pipes, sewage backups, storm leaks, extraction, dry-out, and documentation.
 url: "https://stlwaterdamagehelp.com"
 baseurl: ""
 lang: en-US
@@ -32,3 +33,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - IMAGE_SOURCES.md
